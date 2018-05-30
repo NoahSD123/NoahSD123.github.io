@@ -152,20 +152,15 @@ We summarize many of the known results in this area.},
 @inproceedings{APSNewOld18,
   title = {New (and Old) Proof Systems for Lattice Problems},
   abstract = {$
-  \newcommand{\Otil}{\ensuremath{\tilde{O}}}
-  \newcommand{\problem}[1]{\ensuremath{\mathsf{#1}}}
-  \newcommand{\gapspp}{\problem{GapSPP}}
-  \newcommand{\class}[1]{\ensuremath{\mathsf{#1}}}
-  \newcommand{\coNP}{\class{coNP}}
+  \newcommand{\Otil}{\widetilde{O}}
+  \newcommand{\gapspp}{\mathsf{GapSPP}}
+  \newcommand{\coNP}{\mathsf{coNP}}
   \newcommand{\eps}{\varepsilon}
-  \renewcommand{\tilde}[1]{\widetilde{#1}}
-  \renewcommand{\epsilon}{\varepsilon}
-  \newcommand{\ensuremath}[1]{#1}
   $We continue the study of statistical zero-knowledge (SZK)
   proofs, both interactive and noninteractive, for computational
   problems on point lattices.  We are particularly interested in the
-  problem $\gapspp$ of approximating the $\epsilon$-smoothing
-  parameter (for some $\epsilon < 1/2$) of an $n$-dimensional
+  problem $\gapspp$ of approximating the $\eps$-smoothing
+  parameter (for some $\eps < 1/2$) of an $n$-dimensional
   lattice.  The smoothing parameter is a key quantity in the study of
   lattices, and $\gapspp$ has been emerging as a core problem in
   lattice-based cryptography, e.g., in worst-case to average-case

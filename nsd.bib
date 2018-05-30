@@ -1,21 +1,8 @@
-@article{FakeArticle,
-  title = {Whatever $2^n$},
-  abstract = {$ \newcommand{\problem}[1]{\ensuremath{\mathrm{#1}} } \newcommand{\SVP}{\problem{SVP}} \newcommand{\ensuremath}[1]{#1} $We prove the following quantitative hardness results for the Shortest Vector Problem in the $\ell_p$ norm ($\SVP_p$), where $n$ is the rank of the input lattice. $\bullet$ For "almost all" $p > p_0 \approx 2.1397$, there no $2^{n/C_p}$-time algorithm for $\SVP_p$ for some explicit constant $C_p > 0$ unless the (randomized) Strong Exponential Time Hypothesis (SETH) is false. $\bullet$ For any $p > 2$, there is no $2^{o(n)}$-time algorithm for $\SVP_p$ unless the (randomized) Gap-Exponential Time Hypothesis (Gap-ETH) is false. Furthermore, for each $p > 2$, there exists a constant $\gamma_p > 1$ such that the same result holds even for $\gamma_p$-approximate $\SVP_p$. $\bullet$ There is no $2^{o(n)}$-time algorithm for $\SVP_p$ for any $1 \leq p \leq 2$ unless either (1) (non-uniform) Gap-ETH is false; or (2) there is no family of lattices with exponential kissing number in the $\ell_2$ norm. Furthermore, for each $1 \leq p \leq 2$, there exists a constant $\gamma_p > 1$ such that the same result holds even for $\gamma_p$-approximate $\SVP_p$.},
-  author = {Regev, Oded and {Stephens-Davidowitz}, Noah},
-  year = 2018
-}
-
-@article{Fake2,
-  title = {Another fake},
-  abstract = {$2^n + 17$},
-  author = {Regev, Oded and {Stephens-Davidowitz}, Noah},
-  year = 2018
-  }
 
 @article{RSInequalityGaussians17,
   archivePrefix = {arXiv},
   title = {An Inequality for {{Gaussians}} on Lattices},
-  abstract = {\$ $\backslash$newcommand\{$\backslash$R\}\{$\backslash$ensuremath\{$\backslash$mathbb\{R\}\}\} $\backslash$newcommand\{$\backslash$lat\}\{$\backslash$mathcal\{L\}\} $\backslash$newcommand\{$\backslash$ensuremath\}[1]\{\#1\} \$We show that for any lattice \$$\backslash$lat $\backslash$subseteq $\backslash$R\^n\$ and vectors \$$\backslash$vec\{x\}, $\backslash$vec\{y\} $\backslash$in $\backslash$R\^n\$, $\backslash$[ $\backslash$rho($\backslash$lat + $\backslash$vec\{x\})\^2 $\backslash$rho($\backslash$lat + $\backslash$vec\{y\})\^2 $\backslash$leq $\backslash$rho($\backslash$lat)\^2 $\backslash$rho($\backslash$lat + $\backslash$vec\{x\} + $\backslash$vec\{y\}) $\backslash$rho($\backslash$lat + $\backslash$vec\{x\} - $\backslash$vec\{y\}) $\backslash$; , $\backslash$] where \$$\backslash$rho\$ is the Gaussian measure \$$\backslash$rho(A) := $\backslash$sum\_\{$\backslash$vec\{w\} $\backslash$in A\} $\backslash$exp(-$\backslash$pi $\backslash$| $\backslash$vec\{w\} $\backslash$|\^2)\$. We show a number of applications, including bounds on the moments of the discrete Gaussian distribution, various monotonicity properties of the heat kernel on flat tori, and a positive correlation inequality for Gaussian measures on lattices.},
+  abstract = {$ \newcommand{\R}{\ensuremath{\mathbb{R}}} \newcommand{\lat}{\mathcal{L}} \newcommand{\ensuremath}[1]{#1} $We show that for any lattice $\lat \subseteq \R^n$ and vectors $\vec{x}, \vec{y} \in \R^n$, \[ \rho(\lat + \vec{x})^2 \rho(\lat + \vec{y})^2 \leq \rho(\lat)^2 \rho(\lat + \vec{x} + \vec{y}) \rho(\lat + \vec{x} - \vec{y}) \; , \] where $\rho$ is the Gaussian measure $\rho(A) := \sum_{\vec{w} \in A} \exp(-\pi \| \vec{w} \|^2)$. We show a number of applications, including bounds on the moments of the discrete Gaussian distribution, various monotonicity properties of the heat kernel on flat tori, and a positive correlation inequality for Gaussian measures on lattices.},
   urldate = {2018-05-28},
   url = {http://arxiv.org/abs/1502.04796},
   journal = {SIDMA},
@@ -26,7 +13,7 @@
 @inproceedings{DRSClosestVector14,
   archivePrefix = {arXiv},
   title = {On the {{Closest Vector Problem}} with a Distance Guarantee},
-  abstract = {We present a substantially more efficient variant, both in terms of running time and size of preprocessing advice, of the algorithm by Liu, Lyubashevsky, and Micciancio for solving CVPP (the preprocessing version of the Closest Vector Problem, CVP) with a distance guarantee. For instance, for any \$$\backslash$alpha $<$ 1/2\$, our algorithm finds the (unique) closest lattice point for any target point whose distance from the lattice is at most \$$\backslash$alpha\$ times the length of the shortest nonzero lattice vector, requires as preprocessing advice only \$N $\backslash$approx $\backslash$widetilde\{O\}(n $\backslash$exp($\backslash$alpha\^2 n /(1-2$\backslash$alpha)\^2))\$ vectors, and runs in time \$$\backslash$widetilde\{O\}(nN)\$. As our second main contribution, we present reductions showing that it suffices to solve CVP, both in its plain and preprocessing versions, when the input target point is within some bounded distance of the lattice. The reductions are based on ideas due to Kannan and a recent sparsification technique due to Dadush and Kun. Combining our reductions with the LLM algorithm gives an approximation factor of \$O(n/$\backslash$sqrt\{$\backslash$log n\})\$ for search CVPP, improving on the previous best of \$O(n\^\{1.5\})\$ due to Lagarias, Lenstra, and Schnorr. When combined with our improved algorithm we obtain, somewhat surprisingly, that only O(n) vectors of preprocessing advice are sufficient to solve CVPP with (the only slightly worse) approximation factor of O(n).},
+  abstract = {We present a substantially more efficient variant, both in terms of running time and size of preprocessing advice, of the algorithm by Liu, Lyubashevsky, and Micciancio for solving CVPP (the preprocessing version of the Closest Vector Problem, CVP) with a distance guarantee. For instance, for any $\alpha < 1/2$, our algorithm finds the (unique) closest lattice point for any target point whose distance from the lattice is at most $\alpha$ times the length of the shortest nonzero lattice vector, requires as preprocessing advice only $N \approx \widetilde{O}(n \exp(\alpha^2 n /(1-2\alpha)^2))$ vectors, and runs in time $\widetilde{O}(nN)$. As our second main contribution, we present reductions showing that it suffices to solve CVP, both in its plain and preprocessing versions, when the input target point is within some bounded distance of the lattice. The reductions are based on ideas due to Kannan and a recent sparsification technique due to Dadush and Kun. Combining our reductions with the LLM algorithm gives an approximation factor of $O(n/\sqrt{\log n})$ for search CVPP, improving on the previous best of $O(n^{1.5})$ due to Lagarias, Lenstra, and Schnorr. When combined with our improved algorithm we obtain, somewhat surprisingly, that only $O(n)$ vectors of preprocessing advice are sufficient to solve CVPP with (the only slightly worse) approximation factor of $O(n)$.},
   url = {http://arxiv.org/abs/1409.8063},
   booktitle = {{{CCC}}},
   author = {Dadush, Daniel and Regev, Oded and {Stephens-Davidowitz}, Noah},
@@ -36,7 +23,7 @@
 @inproceedings{SteSearchtodecisionReductions16,
   archivePrefix = {arXiv},
   title = {Search-to-Decision Reductions for Lattice Problems with Approximation Factors (Slightly) Greater than One},
-  abstract = {We show the first dimension-preserving search-to-decision reductions for approximate SVP and CVP. In particular, for any \$$\backslash$gamma $\backslash$leq 1 + O($\backslash$log n/n)\$, we obtain an efficient dimension-preserving reduction from \$$\backslash$gamma\^\{O(n/$\backslash$log n)\}\$-SVP to \$$\backslash$gamma\$-GapSVP and an efficient dimension-preserving reduction from \$$\backslash$gamma\^\{O(n)\}\$-CVP to \$$\backslash$gamma\$-GapCVP. These results generalize the known equivalences of the search and decision versions of these problems in the exact case when \$$\backslash$gamma = 1\$. For SVP, we actually obtain something slightly stronger than a search-to-decision reduction---we reduce \$$\backslash$gamma\^\{O(n/$\backslash$log n)\}\$-SVP to \$$\backslash$gamma\$-unique SVP, a potentially easier problem than \$$\backslash$gamma\$-GapSVP.},
+  abstract = {We show the first dimension-preserving search-to-decision reductions for approximate SVP and CVP. In particular, for any $\gamma \leq 1 + O(\log n/n)$, we obtain an efficient dimension-preserving reduction from $\gamma^{O(n/\log n)}$-SVP to $\gamma$-GapSVP and an efficient dimension-preserving reduction from $\gamma^{O(n)}$-CVP to $\gamma$-GapCVP. These results generalize the known equivalences of the search and decision versions of these problems in the exact case when $\gamma = 1$. For SVP, we actually obtain something slightly stronger than a search-to-decision reduction---we reduce $\gamma^{O(n/\log n)}$-SVP to $\gamma$-unique SVP, a potentially easier problem than $\gamma$-GapSVP.},
   url = {http://arxiv.org/abs/1512.04138},
   booktitle = {{{APPROX}}},
   author = {{Stephens-Davidowitz}, Noah},
@@ -46,7 +33,7 @@
 @inproceedings{BGSQuantitativeHardness17,
   archivePrefix = {arXiv},
   title = {On the Quantitative Hardness of {{CVP}}},
-  abstract = {\$ $\backslash$newcommand\{$\backslash$eps\}\{$\backslash$varepsilon\} $\backslash$newcommand\{$\backslash$problem\}[1]\{$\backslash$ensuremath\{$\backslash$mathrm\{\#1\}\} \} $\backslash$newcommand\{$\backslash$CVP\}\{$\backslash$problem\{CVP\}\} $\backslash$newcommand\{$\backslash$SVP\}\{$\backslash$problem\{SVP\}\} $\backslash$newcommand\{$\backslash$CVPP\}\{$\backslash$problem\{CVPP\}\} $\backslash$newcommand\{$\backslash$ensuremath\}[1]\{\#1\} \$For odd integers \$p $\backslash$geq 1\$ (and \$p = $\backslash$infty\$), we show that the Closest Vector Problem in the \$$\backslash$ell\_p\$ norm (\$$\backslash$CVP\_p\$) over rank \$n\$ lattices cannot be solved in \$2\^\{(1-$\backslash$eps) n\}\$ time for any constant \$$\backslash$eps $>$ 0\$ unless the Strong Exponential Time Hypothesis (SETH) fails. We then extend this result to "almost all" values of \$p $\backslash$geq 1\$, not including the even integers. This comes tantalizingly close to settling the quantitative time complexity of the important special case of \$$\backslash$CVP\_2\$ (i.e., \$$\backslash$CVP\$ in the Euclidean norm), for which a \$2\^\{n +o(n)\}\$-time algorithm is known. In particular, our result applies for any \$p = p(n) $\backslash$neq 2\$ that approaches \$2\$ as \$n $\backslash$to $\backslash$infty\$. We also show a similar SETH-hardness result for \$$\backslash$SVP\_$\backslash$infty\$; hardness of approximating \$$\backslash$CVP\_p\$ to within some constant factor under the so-called Gap-ETH assumption; and other quantitative hardness results for \$$\backslash$CVP\_p\$ and \$$\backslash$CVPP\_p\$ for any \$1 $\backslash$leq p $<$ $\backslash$infty\$ under different assumptions.},
+  abstract = {$ \newcommand{\eps}{\varepsilon} \newcommand{\problem}[1]{\ensuremath{\mathrm{#1}} } \newcommand{\CVP}{\problem{CVP}} \newcommand{\SVP}{\problem{SVP}} \newcommand{\CVPP}{\problem{CVPP}} \newcommand{\ensuremath}[1]{#1} $For odd integers $p \geq 1$ (and $p = \infty$), we show that the Closest Vector Problem in the $\ell_p$ norm ($\CVP_p$) over rank $n$ lattices cannot be solved in $2^{(1-\eps) n}$ time for any constant $\eps > 0$ unless the Strong Exponential Time Hypothesis (SETH) fails. We then extend this result to "almost all" values of $p \geq 1$, not including the even integers. This comes tantalizingly close to settling the quantitative time complexity of the important special case of $\CVP_2$ (i.e., $\CVP$ in the Euclidean norm), for which a $2^{n +o(n)}$-time algorithm is known. In particular, our result applies for any $p = p(n) \neq 2$ that approaches $2$ as $n \to \infty$. We also show a similar SETH-hardness result for $\SVP_\infty$; hardness of approximating $\CVP_p$ to within some constant factor under the so-called Gap-ETH assumption; and other quantitative hardness results for $\CVP_p$ and $\CVPP_p$ for any $1 \leq p < \infty$ under different assumptions.},
   url = {http://arxiv.org/abs/1704.03928},
   booktitle = {{{FOCS}}},
   author = {Bennett, Huck and Golovnev, Alexander and {Stephens-Davidowitz}, Noah},
@@ -56,7 +43,7 @@
 @inproceedings{BDSLatticeDistortion16,
   archivePrefix = {arXiv},
   title = {On the {{Lattice Distortion Problem}}},
-  abstract = {We introduce and study the $\backslash$emph\{Lattice Distortion Problem\} (LDP). LDP asks how "similar" two lattices are. I.e., what is the minimal distortion of a linear bijection between the two lattices? LDP generalizes the Lattice Isomorphism Problem (the lattice analogue of Graph Isomorphism), which simply asks whether the minimal distortion is one. As our first contribution, we show that the distortion between any two lattices is approximated up to a \$n\^\{O($\backslash$log n)\}\$ factor by a simple function of their successive minima. Our methods are constructive, allowing us to compute low-distortion mappings that are within a \$2\^\{O(n $\backslash$log $\backslash$log n/$\backslash$log n)\}\$ factor of optimal in polynomial time and within a \$n\^\{O($\backslash$log n)\}\$ factor of optimal in singly exponential time. Our algorithms rely on a notion of basis reduction introduced by Seysen (Combinatorica 1993), which we show is intimately related to lattice distortion. Lastly, we show that LDP is NP-hard to approximate to within any constant factor (under randomized reductions), by a reduction from the Shortest Vector Problem.},
+  abstract = {We introduce and study the \emph{Lattice Distortion Problem} (LDP). LDP asks how "similar" two lattices are. I.e., what is the minimal distortion of a linear bijection between the two lattices? LDP generalizes the Lattice Isomorphism Problem (the lattice analogue of Graph Isomorphism), which simply asks whether the minimal distortion is one. As our first contribution, we show that the distortion between any two lattices is approximated up to a $n^{O(\log n)}$ factor by a simple function of their successive minima. Our methods are constructive, allowing us to compute low-distortion mappings that are within a $2^{O(n \log \log n/\log n)}$ factor of optimal in polynomial time and within a $n^{O(\log n)}$ factor of optimal in singly exponential time. Our algorithms rely on a notion of basis reduction introduced by Seysen (Combinatorica 1993), which we show is intimately related to lattice distortion. Lastly, we show that LDP is NP-hard to approximate to within any constant factor (under randomized reductions), by a reduction from the Shortest Vector Problem.},
   url = {http://arxiv.org/abs/1605.03613},
   booktitle = {{{ESA}}},
   author = {Bennett, Huck and Dadush, Daniel and {Stephens-Davidowitz}, Noah},
@@ -75,7 +62,7 @@
 @inproceedings{ADSSolvingClosest15,
   archivePrefix = {arXiv},
   title = {Solving the {{Closest Vector Problem}} in $2^n$ Time\textemdash{}{{The}} Discrete {{Gaussian}} Strikes Again!},
-  abstract = {We give a \$2\^\{n+o(n)\}\$-time and space randomized algorithm for solving the exact Closest Vector Problem (CVP) on \$n\$-dimensional Euclidean lattices. This improves on the previous fastest algorithm, the deterministic \$$\backslash$widetilde\{O\}(4\^\{n\})\$-time and \$$\backslash$widetilde\{O\}(2\^\{n\})\$-space algorithm of Micciancio and Voulgaris. We achieve our main result in three steps. First, we show how to modify the sampling algorithm from [ADRS15] to solve the problem of discrete Gaussian sampling over lattice shifts, \$L- t\$, with very low parameters. While the actual algorithm is a natural generalization of [ADRS15], the analysis uses substantial new ideas. This yields a \$2\^\{n+o(n)\}\$-time algorithm for approximate CVP for any approximation factor \$$\backslash$gamma = 1+2\^\{-o(n/$\backslash$log n)\}\$. Second, we show that the approximate closest vectors to a target vector \$t\$ can be grouped into "lower-dimensional clusters," and we use this to obtain a recursive reduction from exact CVP to a variant of approximate CVP that "behaves well with these clusters." Third, we show that our discrete Gaussian sampling algorithm can be used to solve this variant of approximate CVP. The analysis depends crucially on some new properties of the discrete Gaussian distribution and approximate closest vectors, which might be of independent interest.},
+  abstract = {We give a $2^{n+o(n)}$-time and space randomized algorithm for solving the exact Closest Vector Problem (CVP) on $n$-dimensional Euclidean lattices. This improves on the previous fastest algorithm, the deterministic $\widetilde{O}(4^{n})$-time and $\widetilde{O}(2^{n})$-space algorithm of Micciancio and Voulgaris. We achieve our main result in three steps. First, we show how to modify the sampling algorithm from [ADRS15] to solve the problem of discrete Gaussian sampling over lattice shifts, $L- t$, with very low parameters. While the actual algorithm is a natural generalization of [ADRS15], the analysis uses substantial new ideas. This yields a $2^{n+o(n)}$-time algorithm for approximate CVP for any approximation factor $\gamma = 1+2^{-o(n/\log n)}$. Second, we show that the approximate closest vectors to a target vector $t$ can be grouped into "lower-dimensional clusters," and we use this to obtain a recursive reduction from exact CVP to a variant of approximate CVP that "behaves well with these clusters." Third, we show that our discrete Gaussian sampling algorithm can be used to solve this variant of approximate CVP. The analysis depends crucially on some new properties of the discrete Gaussian distribution and approximate closest vectors, which might be of independent interest.},
   url = {http://arxiv.org/abs/1504.01995},
   booktitle = {{{FOCS}}},
   author = {Aggarwal, Divesh and Dadush, Daniel and {Stephens-Davidowitz}, Noah},
@@ -85,7 +72,7 @@
 @inproceedings{SteDiscreteGaussian16,
   archivePrefix = {arXiv},
   title = {Discrete {{Gaussian Sampling Reduces}} to {{CVP}} and {{SVP}}},
-  abstract = {The discrete Gaussian \$D\_\{L- t, s\}\$ is the distribution that assigns to each vector \$x\$ in a shifted lattice \$L - t\$ probability proportional to \$e\^\{-$\backslash$pi $\backslash$|x$\backslash$|\^2/s\^2\}\$. It has long been an important tool in the study of lattices. More recently, algorithms for discrete Gaussian sampling (DGS) have found many applications in computer science. In particular, polynomial-time algorithms for DGS with very high parameters \$s\$ have found many uses in cryptography and in reductions between lattice problems. And, in the past year, Aggarwal, Dadush, Regev, and Stephens-Davidowitz showed \$2\^\{n+o(n)\}\$-time algorithms for DGS with a much wider range of parameters and used them to obtain the current fastest known algorithms for the two most important lattice problems, the Shortest Vector Problem (SVP) and the Closest Vector Problem (CVP). Motivated by its increasing importance, we investigate the complexity of DGS itself and its relationship to CVP and SVP. Our first result is a polynomial-time dimension-preserving reduction from DGS to CVP. There is a simple reduction from CVP to DGS, so this shows that DGS is equivalent to CVP. Our second result, which we find to be more surprising, is a polynomial-time dimension-preserving reduction from centered DGS (the important special case when \$ t = 0\$) to SVP. In the other direction, there is a simple reduction from \$$\backslash$gamma\$-approximate SVP for any \$$\backslash$gamma = $\backslash$Omega($\backslash$sqrt\{n/$\backslash$log n\})\$, and we present some (relatively weak) evidence to suggest that this might be the best achievable approximation factor. We also show that our CVP result extends to a much wider class of distributions and even to other norms.},
+  abstract = {The discrete Gaussian $D_{L- t, s}$ is the distribution that assigns to each vector $x$ in a shifted lattice $L - t$ probability proportional to $e^{-\pi \|x\|^2/s^2}$. It has long been an important tool in the study of lattices. More recently, algorithms for discrete Gaussian sampling (DGS) have found many applications in computer science. In particular, polynomial-time algorithms for DGS with very high parameters $s$ have found many uses in cryptography and in reductions between lattice problems. And, in the past year, Aggarwal, Dadush, Regev, and Stephens-Davidowitz showed $2^{n+o(n)}$-time algorithms for DGS with a much wider range of parameters and used them to obtain the current fastest known algorithms for the two most important lattice problems, the Shortest Vector Problem (SVP) and the Closest Vector Problem (CVP). Motivated by its increasing importance, we investigate the complexity of DGS itself and its relationship to CVP and SVP. Our first result is a polynomial-time dimension-preserving reduction from DGS to CVP. There is a simple reduction from CVP to DGS, so this shows that DGS is equivalent to CVP. Our second result, which we find to be more surprising, is a polynomial-time dimension-preserving reduction from centered DGS (the important special case when $ t = 0$) to SVP. In the other direction, there is a simple reduction from $\gamma$-approximate SVP for any $\gamma = \Omega(\sqrt{n/\log n})$, and we present some (relatively weak) evidence to suggest that this might be the best achievable approximation factor. We also show that our CVP result extends to a much wider class of distributions and even to other norms.},
   url = {http://arxiv.org/abs/1506.07490},
   booktitle = {{{SODA}}},
   author = {{Stephens-Davidowitz}, Noah},
@@ -95,7 +82,7 @@
 @inproceedings{ADRSSolvingShortest15,
   archivePrefix = {arXiv},
   title = {Solving the {{Shortest Vector Problem}} in $2^n$ Time via {{Discrete Gaussian Sampling}}},
-  abstract = {We give a randomized \$2\^\{n+o(n)\}\$-time and space algorithm for solving the Shortest Vector Problem (SVP) on n-dimensional Euclidean lattices. This improves on the previous fastest algorithm: the deterministic \$$\backslash$widetilde\{O\}(4\^n)\$-time and \$$\backslash$widetilde\{O\}(2\^n)\$-space algorithm of Micciancio and Voulgaris (STOC 2010, SIAM J. Comp. 2013). In fact, we give a conceptually simple algorithm that solves the (in our opinion, even more interesting) problem of discrete Gaussian sampling (DGS). More specifically, we show how to sample \$2\^\{n/2\}\$ vectors from the discrete Gaussian distribution at any parameter in \$2\^\{n+o(n)\}\$ time and space. (Prior work only solved DGS for very large parameters.) Our SVP result then follows from a natural reduction from SVP to DGS. We also show that our DGS algorithm implies a \$2\^\{n + o(n)\}\$-time algorithm that approximates the Closest Vector Problem to within a factor of \$1.97\$. In addition, we give a more refined algorithm for DGS above the so-called smoothing parameter of the lattice, which can generate \$2\^\{n/2\}\$ discrete Gaussian samples in just \$2\^\{n/2+o(n)\}\$ time and space. Among other things, this implies a \$2\^\{n/2+o(n)\}\$-time and space algorithm for \$1.93\$-approximate decision SVP.},
+  abstract = {We give a randomized $2^{n+o(n)}$-time and space algorithm for solving the Shortest Vector Problem (SVP) on n-dimensional Euclidean lattices. This improves on the previous fastest algorithm: the deterministic $\widetilde{O}(4^n)$-time and $\widetilde{O}(2^n)$-space algorithm of Micciancio and Voulgaris (STOC 2010, SIAM J. Comp. 2013). In fact, we give a conceptually simple algorithm that solves the (in our opinion, even more interesting) problem of discrete Gaussian sampling (DGS). More specifically, we show how to sample $2^{n/2}$ vectors from the discrete Gaussian distribution at any parameter in $2^{n+o(n)}$ time and space. (Prior work only solved DGS for very large parameters.) Our SVP result then follows from a natural reduction from SVP to DGS. We also show that our DGS algorithm implies a $2^{n + o(n)}$-time algorithm that approximates the Closest Vector Problem to within a factor of $1.97$. In addition, we give a more refined algorithm for DGS above the so-called smoothing parameter of the lattice, which can generate $2^{n/2}$ discrete Gaussian samples in just $2^{n/2+o(n)}$ time and space. Among other things, this implies a $2^{n/2+o(n)}$-time and space algorithm for $1.93$-approximate decision SVP.},
   url = {http://arxiv.org/abs/1412.7994},
   booktitle = {{{STOC}}},
   author = {Aggarwal, Divesh and Dadush, Daniel and Regev, Oded and {Stephens-Davidowitz}, Noah},
@@ -104,6 +91,11 @@
 
 @unpublished{SteDimensionpreservingReductions15,
   title = {Dimension-Preserving Reductions between Lattice Problems},
+  abstract = {Computational problems on lattices have found a remarkable number of applications in computer science. In particular, over the past twenty years, many strong cryptographic primitives have been constructed with their security based on the (worst-case) hardness of various lattice problems. 
+
+Due to their importance, there has been much work towards understanding the relationship between these problems. For the parameters that typically interest us, the fastest known algorithms for lattice problems run in time that is exponential in the dimension of the lattice. Therefore, we are typically interested in reductions that preserve this dimension. (We actually relax this notion slightly and consider a reduction to be ``dimension-preserving'' if it increases the dimension by at most an additive constant.) 
+
+We summarize many of the known results in this area.},
   url = {http://noahsd.com/latticeproblems.pdf},
   author = {{Stephens-Davidowitz}, Noah},
   year = {2015}
@@ -112,7 +104,7 @@
 @inproceedings{RSReverseMinkowski17,
   archivePrefix = {arXiv},
   title = {A Reverse {{Minkowski}} Theorem},
-  abstract = {\$ $\backslash$newcommand\{$\backslash$R\}\{$\backslash$mathbb\{R\}\} $\backslash$newcommand\{$\backslash$lat\}\{$\backslash$mathcal\{L\}\} \$We prove a conjecture due to Dadush, showing that if \$$\backslash$lat $\backslash$subset $\backslash$R\^n\$ is a lattice such that \$$\backslash$det($\backslash$lat') $\backslash$ge 1\$ for all sublattices \$$\backslash$lat' $\backslash$subseteq $\backslash$lat\$, then $\backslash$[ $\backslash$sum\_\{$\backslash$vec y $\backslash$in $\backslash$lat\} e\^\{-t\^2 $\backslash$|$\backslash$vec y$\backslash$|\^2\} $\backslash$le 3/2 $\backslash$; , $\backslash$] where \$t := 10($\backslash$log n + 2)\$. From this we also derive bounds on the number of short lattice vectors and on the covering radius.},
+  abstract = {$ \newcommand{\R}{\mathbb{R}} \newcommand{\lat}{\mathcal{L}} $We prove a conjecture due to Dadush, showing that if $\lat \subset \R^n$ is a lattice such that $\det(\lat') \ge 1$ for all sublattices $\lat' \subseteq \lat$, then \[ \sum_{\vec y \in \lat} e^{-t^2 \|\vec y\|^2} \le 3/2 \; , \] where $t := 10(\log n + 2)$. From this we also derive bounds on the number of short lattice vectors and on the covering radius.},
   url = {http://arxiv.org/abs/1611.05979},
   booktitle = {{{STOC}}},
   author = {Regev, Oded and {Stephens-Davidowitz}, Noah},
@@ -132,7 +124,7 @@
 @inproceedings{ASJustTake18,
   archivePrefix = {arXiv},
   title = {Just Take the Average! {{An}} Embarrassingly Simple $2^n$-Time Algorithm for {{SVP}} (and {{CVP}})},
-  abstract = {We show a \$2\^\{n+o(n)\}\$-time (and space) algorithm for the Shortest Vector Problem on lattices (SVP) that works by repeatedly running an embarrassingly simple "pair and average" sieving-like procedure on a list of lattice vectors. This matches the running time (and space) of the current fastest known algorithm, due to Aggarwal, Dadush, Regev, and Stephens-Davidowitz (ADRS, in STOC, 2015), with a far simpler algorithm. Our algorithm is in fact a modification of the ADRS algorithm, with a certain careful rejection sampling step removed. The correctness of our algorithm follows from a more general "meta-theorem," showing that such rejection sampling steps are unnecessary for a certain class of algorithms and use cases. In particular, this also applies to the related \$2\^\{n + o(n)\}\$-time algorithm for the Closest Vector Problem (CVP), due to Aggarwal, Dadush, and Stephens-Davidowitz (ADS, in FOCS, 2015), yielding a similar embarrassingly simple algorithm for \$$\backslash$gamma\$-approximate CVP for any \$$\backslash$gamma = 1+2\^\{-o(n/$\backslash$log n)\}\$. (We can also remove the rejection sampling procedure from the \$2\^\{n+o(n)\}\$-time ADS algorithm for exact CVP, but the resulting algorithm is still quite complicated.)},
+  abstract = {We show a $2^{n+o(n)}$-time (and space) algorithm for the Shortest Vector Problem on lattices (SVP) that works by repeatedly running an embarrassingly simple "pair and average" sieving-like procedure on a list of lattice vectors. This matches the running time (and space) of the current fastest known algorithm, due to Aggarwal, Dadush, Regev, and Stephens-Davidowitz (ADRS, in STOC, 2015), with a far simpler algorithm. Our algorithm is in fact a modification of the ADRS algorithm, with a certain careful rejection sampling step removed. The correctness of our algorithm follows from a more general "meta-theorem," showing that such rejection sampling steps are unnecessary for a certain class of algorithms and use cases. In particular, this also applies to the related $2^{n + o(n)}$-time algorithm for the Closest Vector Problem (CVP), due to Aggarwal, Dadush, and Stephens-Davidowitz (ADS, in FOCS, 2015), yielding a similar embarrassingly simple algorithm for $\gamma$-approximate CVP for any $\gamma = 1+2^{-o(n/\log n)}$. (We can also remove the rejection sampling procedure from the $2^{n+o(n)}$-time ADS algorithm for exact CVP, but the resulting algorithm is still quite complicated.)},
   url = {http://arxiv.org/abs/1709.01535},
   booktitle = {{{SOSA}}},
   author = {Aggarwal, Divesh and {Stephens-Davidowitz}, Noah},
@@ -150,7 +142,7 @@
 @unpublished{MSGeneralizationsBanaszczyk18,
   archivePrefix = {arXiv},
   title = {Generalizations of {{Banaszczyk}}'s Transference Theorems and Tail Bound},
-  abstract = {We generalize Banaszczyk's seminal tail bound for the Gaussian mass of a lattice to a wide class of test functions. We therefore obtain quite general transference bounds, as well as bounds on the number of lattice points contained in certain bodies. As example applications, we bound the lattice kissing number in \$$\backslash$ell\_p\$ norms by \$e\^\{(n+ o(n))/p\}\$ for \$0 $<$ p $\backslash$leq 2\$, and also give a proof of a new transference bound in the \$$\backslash$ell\_1\$ norm.},
+  abstract = {We generalize Banaszczyk's seminal tail bound for the Gaussian mass of a lattice to a wide class of test functions. We therefore obtain quite general transference bounds, as well as bounds on the number of lattice points contained in certain bodies. As example applications, we bound the lattice kissing number in $\ell_p$ norms by $e^{(n+ o(n))/p}$ for $0 < p \leq 2$, and also give a proof of a new transference bound in the $\ell_1$ norm.},
   urldate = {2018-05-30},
   url = {http://arxiv.org/abs/1802.05708},
   author = {Miller, Stephen D. and {Stephens-Davidowitz}, Noah},
@@ -159,7 +151,45 @@
 
 @inproceedings{APSNewOld18,
   title = {New (and Old) Proof Systems for Lattice Problems},
-  abstract = {We continue the study of statistical zero-knowledge (SZK) proofs, both interactive and noninteractive, for computational problems on point lattices. We are particularly interested in the problem GapSPP of approximating the-smoothing parameter (for some) of an-dimensional lattice. The smoothing parameter is a key quantity in the study of lattices, and GapSPP has been emerging as a core problem in lattice-based cryptography, e.g., in worst-case to average-case reductions.},
+  abstract = {$
+\newcommand{\Otil}{\ensuremath{\tilde{O}}}
+\newcommand{\problem}[1]{\ensuremath{\mathsf{#1}}}
+\newcommand{\gapspp}{\problem{GapSPP}}
+\newcommand{\class}[1]{\ensuremath{\mathsf{#1}}}
+\newcommand{\coNP}{\class{coNP}}
+\newcommand{\eps}{\varepsilon}
+\renewcommand{\tilde}[1]{\widetilde{#1}}
+\renewcommand{\epsilon}{\varepsilon}
+\newcommand{\ensuremath}[1]{#1}
+$We continue the study of statistical zero-knowledge (SZK)
+proofs, both interactive and noninteractive, for computational
+problems on point lattices.  We are particularly interested in the
+problem $\gapspp$ of approximating the $\epsilon$-smoothing
+parameter (for some $\epsilon < 1/2$) of an $n$-dimensional
+lattice.  The smoothing parameter is a key quantity in the study of
+lattices, and $\gapspp$ has been emerging as a core problem in
+lattice-based cryptography, e.g., in worst-case to average-case
+reductions.
+
+We show that $\gapspp$ admits SZK proofs for remarkably low
+approximation factors, improving on prior work by up to
+roughly $\sqrt{n}$.  Specifically:
+
+ $\bullet$  There is a noninteractive SZK proof for
+$O(\log(n) \sqrt{\log (1/\eps)})$-approximate $\gapspp$.  Moreover,
+for any negligible $\epsilon$ and a larger approximation factor
+$\Otil(\sqrt{n \log(1/\eps)})$, there is such a proof with an
+efficient prover.
+
+ $\bullet$  There is an (interactive) SZK proof with an efficient prover for
+$O(\log n + \sqrt{\log(1/\eps)/\log n})$-approximate
+$\problem{coGapSPP}$.  We show this by proving that
+$O(\log n)$-approximate $\gapspp$ is in $\coNP$.
+
+In addition, we give an (interactive) SZK proof with an efficient
+prover for approximating the lattice covering radius to within
+an $O(\sqrt{n})$ factor, improving upon the prior best factor of
+$\omega(\sqrt{n \log n})$.},
   urldate = {2018-05-30},
   url = {https://eprint.iacr.org/2017/1226},
   booktitle = {{{PKC}}},
@@ -226,7 +256,7 @@ After developing our formal definitional framework for RNGs with inputs, we show
 
 @unpublished{SCCyclicSieving07,
   title = {The {{Cyclic Sieving Phenomenon}} on the {{Alternating Sign Matrices}}},
-  abstract = {We first present a previously unpublished result of Stanton [11] that the group of order four generated by rotation by 90$\smwhtcircle$ acting on alternating sign matrices exhibits the CSP with the obvious q-analogue of |ASM(n)|.},
+  abstract = {We first present a previously unpublished result of Stanton that the group of order four generated by rotation by 90 degrees acting on alternating sign matrices exhibits the CSP with the obvious q-analogue of |ASM(n)|.},
   url = {http://noahsd.com/papers/ASMCSP.pdf},
   author = {{Stephens-Davidowitz}, Noah and Cloninger, Alex},
   year = {2007}
@@ -239,5 +269,3 @@ After developing our formal definitional framework for RNGs with inputs, we show
   author = {Hong, Fraser Chiu Kim and Cloninger, Alex and {Stephens-Davidowitz}, Noah},
   year = {2007}
 }
-
-

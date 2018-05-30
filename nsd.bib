@@ -2,7 +2,9 @@
 @article{RSInequalityGaussians17,
   archivePrefix = {arXiv},
   title = {An Inequality for {{Gaussians}} on Lattices},
-  note = {\url{http://arxiv.org/abs/1502.04796}},
+  abstract = {\$ $\backslash$newcommand\{$\backslash$R\}\{$\backslash$ensuremath\{$\backslash$mathbb\{R\}\}\} $\backslash$newcommand\{$\backslash$lat\}\{$\backslash$mathcal\{L\}\} $\backslash$newcommand\{$\backslash$ensuremath\}[1]\{\#1\} \$We show that for any lattice \$$\backslash$lat $\backslash$subseteq $\backslash$R\^n\$ and vectors \$$\backslash$vec\{x\}, $\backslash$vec\{y\} $\backslash$in $\backslash$R\^n\$, $\backslash$[ $\backslash$rho($\backslash$lat + $\backslash$vec\{x\})\^2 $\backslash$rho($\backslash$lat + $\backslash$vec\{y\})\^2 $\backslash$leq $\backslash$rho($\backslash$lat)\^2 $\backslash$rho($\backslash$lat + $\backslash$vec\{x\} + $\backslash$vec\{y\}) $\backslash$rho($\backslash$lat + $\backslash$vec\{x\} - $\backslash$vec\{y\}) $\backslash$; , $\backslash$] where \$$\backslash$rho\$ is the Gaussian measure \$$\backslash$rho(A) := $\backslash$sum\_\{$\backslash$vec\{w\} $\backslash$in A\} $\backslash$exp(-$\backslash$pi $\backslash$| $\backslash$vec\{w\} $\backslash$|\^2)\$. We show a number of applications, including bounds on the moments of the discrete Gaussian distribution, various monotonicity properties of the heat kernel on flat tori, and a positive correlation inequality for Gaussian measures on lattices.},
+  urldate = {2018-05-28},
+  url = {http://arxiv.org/abs/1502.04796},
   journal = {SIDMA},
   author = {Regev, Oded and {Stephens-Davidowitz}, Noah},
   year = {2017}
@@ -11,7 +13,8 @@
 @inproceedings{DRSClosestVector14,
   archivePrefix = {arXiv},
   title = {On the {{Closest Vector Problem}} with a Distance Guarantee},
-  note = {\url{http://arxiv.org/abs/1409.8063}},
+  abstract = {We present a substantially more efficient variant, both in terms of running time and size of preprocessing advice, of the algorithm by Liu, Lyubashevsky, and Micciancio for solving CVPP (the preprocessing version of the Closest Vector Problem, CVP) with a distance guarantee. For instance, for any \$$\backslash$alpha $<$ 1/2\$, our algorithm finds the (unique) closest lattice point for any target point whose distance from the lattice is at most \$$\backslash$alpha\$ times the length of the shortest nonzero lattice vector, requires as preprocessing advice only \$N $\backslash$approx $\backslash$widetilde\{O\}(n $\backslash$exp($\backslash$alpha\^2 n /(1-2$\backslash$alpha)\^2))\$ vectors, and runs in time \$$\backslash$widetilde\{O\}(nN)\$. As our second main contribution, we present reductions showing that it suffices to solve CVP, both in its plain and preprocessing versions, when the input target point is within some bounded distance of the lattice. The reductions are based on ideas due to Kannan and a recent sparsification technique due to Dadush and Kun. Combining our reductions with the LLM algorithm gives an approximation factor of \$O(n/$\backslash$sqrt\{$\backslash$log n\})\$ for search CVPP, improving on the previous best of \$O(n\^\{1.5\})\$ due to Lagarias, Lenstra, and Schnorr. When combined with our improved algorithm we obtain, somewhat surprisingly, that only O(n) vectors of preprocessing advice are sufficient to solve CVPP with (the only slightly worse) approximation factor of O(n).},
+  url = {http://arxiv.org/abs/1409.8063},
   booktitle = {{{CCC}}},
   author = {Dadush, Daniel and Regev, Oded and {Stephens-Davidowitz}, Noah},
   year = {2014}
@@ -20,7 +23,8 @@
 @inproceedings{SteSearchtodecisionReductions16,
   archivePrefix = {arXiv},
   title = {Search-to-Decision Reductions for Lattice Problems with Approximation Factors (Slightly) Greater than One},
-  note = {\url{http://arxiv.org/abs/1512.04138}},
+  abstract = {We show the first dimension-preserving search-to-decision reductions for approximate SVP and CVP. In particular, for any \$$\backslash$gamma $\backslash$leq 1 + O($\backslash$log n/n)\$, we obtain an efficient dimension-preserving reduction from \$$\backslash$gamma\^\{O(n/$\backslash$log n)\}\$-SVP to \$$\backslash$gamma\$-GapSVP and an efficient dimension-preserving reduction from \$$\backslash$gamma\^\{O(n)\}\$-CVP to \$$\backslash$gamma\$-GapCVP. These results generalize the known equivalences of the search and decision versions of these problems in the exact case when \$$\backslash$gamma = 1\$. For SVP, we actually obtain something slightly stronger than a search-to-decision reduction---we reduce \$$\backslash$gamma\^\{O(n/$\backslash$log n)\}\$-SVP to \$$\backslash$gamma\$-unique SVP, a potentially easier problem than \$$\backslash$gamma\$-GapSVP.},
+  url = {http://arxiv.org/abs/1512.04138},
   booktitle = {{{APPROX}}},
   author = {{Stephens-Davidowitz}, Noah},
   year = {2016}
@@ -29,7 +33,8 @@
 @inproceedings{BGSQuantitativeHardness17,
   archivePrefix = {arXiv},
   title = {On the Quantitative Hardness of {{CVP}}},
-  note = {\url{http://arxiv.org/abs/1704.03928}},
+  abstract = {\$ $\backslash$newcommand\{$\backslash$eps\}\{$\backslash$varepsilon\} $\backslash$newcommand\{$\backslash$problem\}[1]\{$\backslash$ensuremath\{$\backslash$mathrm\{\#1\}\} \} $\backslash$newcommand\{$\backslash$CVP\}\{$\backslash$problem\{CVP\}\} $\backslash$newcommand\{$\backslash$SVP\}\{$\backslash$problem\{SVP\}\} $\backslash$newcommand\{$\backslash$CVPP\}\{$\backslash$problem\{CVPP\}\} $\backslash$newcommand\{$\backslash$ensuremath\}[1]\{\#1\} \$For odd integers \$p $\backslash$geq 1\$ (and \$p = $\backslash$infty\$), we show that the Closest Vector Problem in the \$$\backslash$ell\_p\$ norm (\$$\backslash$CVP\_p\$) over rank \$n\$ lattices cannot be solved in \$2\^\{(1-$\backslash$eps) n\}\$ time for any constant \$$\backslash$eps $>$ 0\$ unless the Strong Exponential Time Hypothesis (SETH) fails. We then extend this result to "almost all" values of \$p $\backslash$geq 1\$, not including the even integers. This comes tantalizingly close to settling the quantitative time complexity of the important special case of \$$\backslash$CVP\_2\$ (i.e., \$$\backslash$CVP\$ in the Euclidean norm), for which a \$2\^\{n +o(n)\}\$-time algorithm is known. In particular, our result applies for any \$p = p(n) $\backslash$neq 2\$ that approaches \$2\$ as \$n $\backslash$to $\backslash$infty\$. We also show a similar SETH-hardness result for \$$\backslash$SVP\_$\backslash$infty\$; hardness of approximating \$$\backslash$CVP\_p\$ to within some constant factor under the so-called Gap-ETH assumption; and other quantitative hardness results for \$$\backslash$CVP\_p\$ and \$$\backslash$CVPP\_p\$ for any \$1 $\backslash$leq p $<$ $\backslash$infty\$ under different assumptions.},
+  url = {http://arxiv.org/abs/1704.03928},
   booktitle = {{{FOCS}}},
   author = {Bennett, Huck and Golovnev, Alexander and {Stephens-Davidowitz}, Noah},
   year = {2017}
@@ -38,7 +43,8 @@
 @inproceedings{BDSLatticeDistortion16,
   archivePrefix = {arXiv},
   title = {On the {{Lattice Distortion Problem}}},
-  note = {\url{http://arxiv.org/abs/1605.03613}},
+  abstract = {We introduce and study the $\backslash$emph\{Lattice Distortion Problem\} (LDP). LDP asks how "similar" two lattices are. I.e., what is the minimal distortion of a linear bijection between the two lattices? LDP generalizes the Lattice Isomorphism Problem (the lattice analogue of Graph Isomorphism), which simply asks whether the minimal distortion is one. As our first contribution, we show that the distortion between any two lattices is approximated up to a \$n\^\{O($\backslash$log n)\}\$ factor by a simple function of their successive minima. Our methods are constructive, allowing us to compute low-distortion mappings that are within a \$2\^\{O(n $\backslash$log $\backslash$log n/$\backslash$log n)\}\$ factor of optimal in polynomial time and within a \$n\^\{O($\backslash$log n)\}\$ factor of optimal in singly exponential time. Our algorithms rely on a notion of basis reduction introduced by Seysen (Combinatorica 1993), which we show is intimately related to lattice distortion. Lastly, we show that LDP is NP-hard to approximate to within any constant factor (under randomized reductions), by a reduction from the Shortest Vector Problem.},
+  url = {http://arxiv.org/abs/1605.03613},
   booktitle = {{{ESA}}},
   author = {Bennett, Huck and Dadush, Daniel and {Stephens-Davidowitz}, Noah},
   year = {2016}
@@ -46,7 +52,8 @@
 
 @inproceedings{PRSPseudorandomnessRingLWE17,
   title = {Pseudorandomness of {{Ring}}-{{LWE}} for Any Ring and Modulus},
-  note = {\url{https://eprint.iacr.org/2017/258}},
+  abstract = {We give a polynomial-time quantum reduction from worst-case (ideal) lattice problems directly to the decision version of (Ring-)LWE. This extends to decision all the worst-case hardness results that were previously known for the search version, for the same or even better parameters and with no algebraic restrictions on the modulus or number field. Indeed, our reduction is the first that works for decision Ring-LWE with any number field and any modulus.},
+  url = {https://eprint.iacr.org/2017/258},
   booktitle = {{{STOC}}},
   author = {Peikert, Chris and Regev, Oded and {Stephens-Davidowitz}, Noah},
   year = {2017}
@@ -55,7 +62,8 @@
 @inproceedings{ADSSolvingClosest15,
   archivePrefix = {arXiv},
   title = {Solving the {{Closest Vector Problem}} in $2^n$ Time\textemdash{}{{The}} Discrete {{Gaussian}} Strikes Again!},
-  note = {\url{http://arxiv.org/abs/1504.01995}},
+  abstract = {We give a \$2\^\{n+o(n)\}\$-time and space randomized algorithm for solving the exact Closest Vector Problem (CVP) on \$n\$-dimensional Euclidean lattices. This improves on the previous fastest algorithm, the deterministic \$$\backslash$widetilde\{O\}(4\^\{n\})\$-time and \$$\backslash$widetilde\{O\}(2\^\{n\})\$-space algorithm of Micciancio and Voulgaris. We achieve our main result in three steps. First, we show how to modify the sampling algorithm from [ADRS15] to solve the problem of discrete Gaussian sampling over lattice shifts, \$L- t\$, with very low parameters. While the actual algorithm is a natural generalization of [ADRS15], the analysis uses substantial new ideas. This yields a \$2\^\{n+o(n)\}\$-time algorithm for approximate CVP for any approximation factor \$$\backslash$gamma = 1+2\^\{-o(n/$\backslash$log n)\}\$. Second, we show that the approximate closest vectors to a target vector \$t\$ can be grouped into "lower-dimensional clusters," and we use this to obtain a recursive reduction from exact CVP to a variant of approximate CVP that "behaves well with these clusters." Third, we show that our discrete Gaussian sampling algorithm can be used to solve this variant of approximate CVP. The analysis depends crucially on some new properties of the discrete Gaussian distribution and approximate closest vectors, which might be of independent interest.},
+  url = {http://arxiv.org/abs/1504.01995},
   booktitle = {{{FOCS}}},
   author = {Aggarwal, Divesh and Dadush, Daniel and {Stephens-Davidowitz}, Noah},
   year = {2015}
@@ -64,7 +72,8 @@
 @inproceedings{SteDiscreteGaussian16,
   archivePrefix = {arXiv},
   title = {Discrete {{Gaussian Sampling Reduces}} to {{CVP}} and {{SVP}}},
-  note = {\url{http://arxiv.org/abs/1506.07490}},
+  abstract = {The discrete Gaussian \$D\_\{L- t, s\}\$ is the distribution that assigns to each vector \$x\$ in a shifted lattice \$L - t\$ probability proportional to \$e\^\{-$\backslash$pi $\backslash$|x$\backslash$|\^2/s\^2\}\$. It has long been an important tool in the study of lattices. More recently, algorithms for discrete Gaussian sampling (DGS) have found many applications in computer science. In particular, polynomial-time algorithms for DGS with very high parameters \$s\$ have found many uses in cryptography and in reductions between lattice problems. And, in the past year, Aggarwal, Dadush, Regev, and Stephens-Davidowitz showed \$2\^\{n+o(n)\}\$-time algorithms for DGS with a much wider range of parameters and used them to obtain the current fastest known algorithms for the two most important lattice problems, the Shortest Vector Problem (SVP) and the Closest Vector Problem (CVP). Motivated by its increasing importance, we investigate the complexity of DGS itself and its relationship to CVP and SVP. Our first result is a polynomial-time dimension-preserving reduction from DGS to CVP. There is a simple reduction from CVP to DGS, so this shows that DGS is equivalent to CVP. Our second result, which we find to be more surprising, is a polynomial-time dimension-preserving reduction from centered DGS (the important special case when \$ t = 0\$) to SVP. In the other direction, there is a simple reduction from \$$\backslash$gamma\$-approximate SVP for any \$$\backslash$gamma = $\backslash$Omega($\backslash$sqrt\{n/$\backslash$log n\})\$, and we present some (relatively weak) evidence to suggest that this might be the best achievable approximation factor. We also show that our CVP result extends to a much wider class of distributions and even to other norms.},
+  url = {http://arxiv.org/abs/1506.07490},
   booktitle = {{{SODA}}},
   author = {{Stephens-Davidowitz}, Noah},
   year = {2016}
@@ -73,7 +82,8 @@
 @inproceedings{ADRSSolvingShortest15,
   archivePrefix = {arXiv},
   title = {Solving the {{Shortest Vector Problem}} in $2^n$ Time via {{Discrete Gaussian Sampling}}},
-  note = {\url{http://arxiv.org/abs/1412.7994}},
+  abstract = {We give a randomized \$2\^\{n+o(n)\}\$-time and space algorithm for solving the Shortest Vector Problem (SVP) on n-dimensional Euclidean lattices. This improves on the previous fastest algorithm: the deterministic \$$\backslash$widetilde\{O\}(4\^n)\$-time and \$$\backslash$widetilde\{O\}(2\^n)\$-space algorithm of Micciancio and Voulgaris (STOC 2010, SIAM J. Comp. 2013). In fact, we give a conceptually simple algorithm that solves the (in our opinion, even more interesting) problem of discrete Gaussian sampling (DGS). More specifically, we show how to sample \$2\^\{n/2\}\$ vectors from the discrete Gaussian distribution at any parameter in \$2\^\{n+o(n)\}\$ time and space. (Prior work only solved DGS for very large parameters.) Our SVP result then follows from a natural reduction from SVP to DGS. We also show that our DGS algorithm implies a \$2\^\{n + o(n)\}\$-time algorithm that approximates the Closest Vector Problem to within a factor of \$1.97\$. In addition, we give a more refined algorithm for DGS above the so-called smoothing parameter of the lattice, which can generate \$2\^\{n/2\}\$ discrete Gaussian samples in just \$2\^\{n/2+o(n)\}\$ time and space. Among other things, this implies a \$2\^\{n/2+o(n)\}\$-time and space algorithm for \$1.93\$-approximate decision SVP.},
+  url = {http://arxiv.org/abs/1412.7994},
   booktitle = {{{STOC}}},
   author = {Aggarwal, Divesh and Dadush, Daniel and Regev, Oded and {Stephens-Davidowitz}, Noah},
   year = {2015}
@@ -81,7 +91,7 @@
 
 @unpublished{SteDimensionpreservingReductions15,
   title = {Dimension-Preserving Reductions between Lattice Problems},
-  note = {\url{http://noahsd.com/latticeproblems.pdf}},
+  url = {http://noahsd.com/latticeproblems.pdf},
   author = {{Stephens-Davidowitz}, Noah},
   year = {2015}
 }
@@ -89,7 +99,8 @@
 @inproceedings{RSReverseMinkowski17,
   archivePrefix = {arXiv},
   title = {A Reverse {{Minkowski}} Theorem},
-  note = {\url{http://arxiv.org/abs/1611.05979}},
+  abstract = {\$ $\backslash$newcommand\{$\backslash$R\}\{$\backslash$mathbb\{R\}\} $\backslash$newcommand\{$\backslash$lat\}\{$\backslash$mathcal\{L\}\} \$We prove a conjecture due to Dadush, showing that if \$$\backslash$lat $\backslash$subset $\backslash$R\^n\$ is a lattice such that \$$\backslash$det($\backslash$lat') $\backslash$ge 1\$ for all sublattices \$$\backslash$lat' $\backslash$subseteq $\backslash$lat\$, then $\backslash$[ $\backslash$sum\_\{$\backslash$vec y $\backslash$in $\backslash$lat\} e\^\{-t\^2 $\backslash$|$\backslash$vec y$\backslash$|\^2\} $\backslash$le 3/2 $\backslash$; , $\backslash$] where \$t := 10($\backslash$log n + 2)\$. From this we also derive bounds on the number of short lattice vectors and on the covering radius.},
+  url = {http://arxiv.org/abs/1611.05979},
   booktitle = {{{STOC}}},
   author = {Regev, Oded and {Stephens-Davidowitz}, Noah},
   year = {2017}
@@ -98,7 +109,8 @@
 @inproceedings{ASGapETH18,
   archivePrefix = {arXiv},
   title = {({{Gap}}/{{S}}){{ETH Hardness}} of {{SVP}}},
-  note = {\url{http://arxiv.org/abs/1712.00942}},
+  abstract = {\$ $\backslash$newcommand\{$\backslash$problem\}[1]\{$\backslash$ensuremath\{$\backslash$mathrm\{\#1\}\} \} $\backslash$newcommand\{$\backslash$SVP\}\{$\backslash$problem\{SVP\}\} $\backslash$newcommand\{$\backslash$ensuremath\}[1]\{\#1\} \$We prove the following quantitative hardness results for the Shortest Vector Problem in the \$$\backslash$ell\_p\$ norm (\$$\backslash$SVP\_p\$), where \$n\$ is the rank of the input lattice. \$$\backslash$bullet\$ For "almost all" \$p $>$ p\_0 $\backslash$approx 2.1397\$, there no \$2\^\{n/C\_p\}\$-time algorithm for \$$\backslash$SVP\_p\$ for some explicit constant \$C\_p $>$ 0\$ unless the (randomized) Strong Exponential Time Hypothesis (SETH) is false. \$$\backslash$bullet\$ For any \$p $>$ 2\$, there is no \$2\^\{o(n)\}\$-time algorithm for \$$\backslash$SVP\_p\$ unless the (randomized) Gap-Exponential Time Hypothesis (Gap-ETH) is false. Furthermore, for each \$p $>$ 2\$, there exists a constant \$$\backslash$gamma\_p $>$ 1\$ such that the same result holds even for \$$\backslash$gamma\_p\$-approximate \$$\backslash$SVP\_p\$. \$$\backslash$bullet\$ There is no \$2\^\{o(n)\}\$-time algorithm for \$$\backslash$SVP\_p\$ for any \$1 $\backslash$leq p $\backslash$leq 2\$ unless either (1) (non-uniform) Gap-ETH is false; or (2) there is no family of lattices with exponential kissing number in the \$$\backslash$ell\_2\$ norm. Furthermore, for each \$1 $\backslash$leq p $\backslash$leq 2\$, there exists a constant \$$\backslash$gamma\_p $>$ 1\$ such that the same result holds even for \$$\backslash$gamma\_p\$-approximate \$$\backslash$SVP\_p\$.},
+  url = {http://arxiv.org/abs/1712.00942},
   booktitle = {{{STOC}}},
   author = {Aggarwal, Divesh and {Stephens-Davidowitz}, Noah},
   year = {2018}
@@ -107,7 +119,8 @@
 @inproceedings{ASJustTake18,
   archivePrefix = {arXiv},
   title = {Just Take the Average! {{An}} Embarrassingly Simple $2^n$-Time Algorithm for {{SVP}} (and {{CVP}})},
-  note = {\url{http://arxiv.org/abs/1709.01535}},
+  abstract = {We show a \$2\^\{n+o(n)\}\$-time (and space) algorithm for the Shortest Vector Problem on lattices (SVP) that works by repeatedly running an embarrassingly simple "pair and average" sieving-like procedure on a list of lattice vectors. This matches the running time (and space) of the current fastest known algorithm, due to Aggarwal, Dadush, Regev, and Stephens-Davidowitz (ADRS, in STOC, 2015), with a far simpler algorithm. Our algorithm is in fact a modification of the ADRS algorithm, with a certain careful rejection sampling step removed. The correctness of our algorithm follows from a more general "meta-theorem," showing that such rejection sampling steps are unnecessary for a certain class of algorithms and use cases. In particular, this also applies to the related \$2\^\{n + o(n)\}\$-time algorithm for the Closest Vector Problem (CVP), due to Aggarwal, Dadush, and Stephens-Davidowitz (ADS, in FOCS, 2015), yielding a similar embarrassingly simple algorithm for \$$\backslash$gamma\$-approximate CVP for any \$$\backslash$gamma = 1+2\^\{-o(n/$\backslash$log n)\}\$. (We can also remove the rejection sampling procedure from the \$2\^\{n+o(n)\}\$-time ADS algorithm for exact CVP, but the resulting algorithm is still quite complicated.)},
+  url = {http://arxiv.org/abs/1709.01535},
   booktitle = {{{SOSA}}},
   author = {Aggarwal, Divesh and {Stephens-Davidowitz}, Noah},
   year = {2018}
@@ -124,14 +137,18 @@
 @unpublished{MSGeneralizationsBanaszczyk18,
   archivePrefix = {arXiv},
   title = {Generalizations of {{Banaszczyk}}'s Transference Theorems and Tail Bound},
-  note = {\url{http://arxiv.org/abs/1802.05708}},
+  abstract = {We generalize Banaszczyk's seminal tail bound for the Gaussian mass of a lattice to a wide class of test functions. We therefore obtain quite general transference bounds, as well as bounds on the number of lattice points contained in certain bodies. As example applications, we bound the lattice kissing number in \$$\backslash$ell\_p\$ norms by \$e\^\{(n+ o(n))/p\}\$ for \$0 $<$ p $\backslash$leq 2\$, and also give a proof of a new transference bound in the \$$\backslash$ell\_1\$ norm.},
+  urldate = {2018-05-30},
+  url = {http://arxiv.org/abs/1802.05708},
   author = {Miller, Stephen D. and {Stephens-Davidowitz}, Noah},
   year = {2018}
 }
 
 @inproceedings{APSNewOld18,
   title = {New (and Old) Proof Systems for Lattice Problems},
-  note = {\url{https://eprint.iacr.org/2017/1226}},
+  abstract = {We continue the study of statistical zero-knowledge (SZK) proofs, both interactive and noninteractive, for computational problems on point lattices. We are particularly interested in the problem GapSPP of approximating the-smoothing parameter (for some) of an-dimensional lattice. The smoothing parameter is a key quantity in the study of lattices, and GapSPP has been emerging as a core problem in lattice-based cryptography, e.g., in worst-case to average-case reductions.},
+  urldate = {2018-05-30},
+  url = {https://eprint.iacr.org/2017/1226},
   booktitle = {{{PKC}}},
   author = {Alamati, Navid and Peikert, Chris and {Stephens-Davidowitz}, Noah},
   year = {2018}
@@ -139,14 +156,26 @@
 
 @inproceedings{HHSSImplementingBPObfuscation17,
   title = {Implementing {{BP}}-{{Obfuscation}} Using {{Graph}}-{{Induced Encoding}}},
-  note = {\url{https://eprint.iacr.org/2017/104}},
+  abstract = {We implemented (a simplified version of) the branching-program obfuscator due to Gentry et al. (GGH15), which is itself a variation of the first obfuscation candidate by Garg et al. (GGHRSW13). To keep within the realm of feasibility, we had to give up on some aspects of the construction, specifically the ``multiplicative bundling'' factors that protect against mixed-input attacks. Hence our implementation can only support read-once branching programs.
+
+To be able to handle anything more than just toy problems, we developed a host of algorithmic and code-level optimizations. These include new variants of discrete Gaussian sampler and lattice trapdoor sampler, efficient matrix-manipulation routines, and many tradeoffs. We expect that these optimizations will find other uses in lattice-based cryptography beyond just obfuscation.
+
+Our implementation is the first obfuscation attempt using the GGH15 graded encoding scheme, offering performance advantages over other graded encoding methods when obfuscating finite-state machines with many states. In out most demanding setting, we were able to obfuscate programs with input length of 20 nibbles (80 bits) and over 100 states, which seems out of reach for prior implementations. Although further optimizations are surely possible, we do not expect any implementation of current schemes to be able to handle much larger parameters.},
+  urldate = {2018-05-30},
+  url = {https://eprint.iacr.org/2017/104},
   author = {Halevi, Shai and Halevi, Tzipora and Shoup, Victor and {Stephens-Davidowitz}, Noah},
   year = {2017}
 }
 
 @inproceedings{DMSMessageTransmission16,
   title = {Message Transmission with {{Reverse Firewalls}}---Secure Communication on Corrupted Machines},
-  note = {\url{https://eprint.iacr.org/2015/548}},
+  abstract = {Suppose Alice wishes to send a message to Bob privately over an untrusted channel. Cryptographers have developed a whole suite of tools to accomplish this task, with a wide variety of notions of security, setup assumptions, and running times. However, almost all prior work on this topic made a seemingly innocent assumption: that Alice has access to a trusted computer with a proper implementation of the protocol. The Snowden revelations show us that, in fact, powerful adversaries can and will corrupt users' machines in order to compromise their security. And, (presumably) accidental vulnerabilities are regularly found in popular cryptographic software, showing that users cannot even trust implementations that were created honestly. This leads to the following (seemingly absurd) question: ``Can Alice securely send a message to Bob even if she cannot trust her own computer?!''
+
+Bellare, Paterson, and Rogaway recently studied this question. They show a strong lower bound that in particular rules out even semantically secure public-key encryption in their model. However, Mironov and Stephens-Davidowitz recently introduced a new framework for solving such problems: reverse firewalls. A secure reverse firewall is a third party that ``sits between Alice and the outside world'' and modifies her sent and received messages so that even if the her machine has been corrupted, Alice's security is still guaranteed. We show how to use reverse firewalls to sidestep the impossibility result of Bellare et al., and we achieve strong security guarantees in this extreme setting.
+
+Indeed, we find a rich structure of solutions that vary in efficiency, security, and setup assumptions, in close analogy with message transmission in the classical setting. Our strongest and most important result shows a protocol that achieves interactive, concurrent CCA-secure message transmission with a reverse firewall---i.e., CCA-secure message transmission on a possibly compromised machine! Surprisingly, this protocol is quite efficient and simple, requiring only four rounds and a small constant number of public-key operations for each party. It could easily be used in practice. Behind this result is a technical composition theorem that shows how key agreement with a sufficiently secure reverse firewall can be used to construct a message-transmission protocol with its own secure reverse firewall.},
+  urldate = {2018-05-30},
+  url = {https://eprint.iacr.org/2015/548},
   booktitle = {{{CRYPTO}}},
   author = {Dodis, Yevgeniy and Mironov, Ilya and {Stephens-Davidowitz}, Noah},
   year = {2016}
@@ -154,7 +183,15 @@
 
 @inproceedings{MSCryptographicReverse15,
   title = {Cryptographic {{Reverse Firewalls}}},
-  note = {\url{https://eprint.iacr.org/2014/758}},
+  abstract = {Recent revelations by Edward Snowden show that a user's own hardware and software can be used against her in various ways (e.g., to leak her private information). And, a series of recent announcements has shown that widespread implementations of cryptographic software often contain serious bugs that cripple security. This motivates us to consider the following (seemingly absurd) question: How can we guarantee a user's security when she may be using a malfunctioning or arbitrarily compromised machine? To that end, we introduce the notion of a cryptographic reverse firewall (RF). Such a machine sits between the user's computer and the outside world, potentially modifying the messages that she sends and receives as she engages in a cryptographic protocol.
+
+A good reverse firewall accomplishes three things: (1) it maintains functionality, so that if the user's computer is working correctly, the RF will not break the functionality of the underlying protocol; (2) it preserves security, so that regardless of how the user's machine behaves, the presence of the RF will provide the same security guarantees as the properly implemented protocol; and (3) it resists exfiltration, so that regardless of how the user's machine behaves, the presence of the RF will prevent the machine from leaking any information to the outside world. Importantly, we do not model the firewall as a trusted party. It does not share any secrets with the user, and the protocol should be both secure and functional without the firewall (when it is implemented correctly).
+
+Our security definition for reverse firewalls depends on the security notion(s) of the underlying protocol. As such, our model generalizes much prior work and provides a general framework for building cryptographic schemes that remain secure when run on compromised machine. It is also a modern take on a line of work that received considerable attention in the 80s and 90s.
+
+We show that our definition is achievable by constructing a private function evaluation protocol with a secure reverse firewall for each party. Along the way, we design an oblivious transfer protocol that also has a secure RF for each party, and a rerandomizable garbled circuit that is both more efficient and more secure than previous constructions. Finally, we show how to convert $\backslash$emph\{any\} protocol into a protocol with an exfiltration-resistant reverse firewall for all parties. (In other words, we provide a generic way to prevent a tampered machine from leaking information to an eavesdropper via any protocol.)},
+  urldate = {2018-05-30},
+  url = {https://eprint.iacr.org/2014/758},
   booktitle = {Eurocrypt},
   author = {Mironov, Ilya and {Stephens-Davidowitz}, Noah},
   year = {2015}
@@ -162,7 +199,13 @@
 
 @inproceedings{DSSWHowEat14,
   title = {How to Eat Your Entropy and Have It Too -- Optimal Recovery Strategies for Compromised {{RNGs}}},
-  note = {\url{https://eprint.iacr.org/2014/167}},
+  abstract = {Random number generators (RNGs) play a crucial role in many cryptographic schemes and protocols, but their security proof usually assumes that their internal state is initialized with truly random seeds and remains secret at all times. However, in many practical situations these are unrealistic assumptions: The seed is often gathered after a reset/reboot from low entropy external events such as the timing of manual key presses, and the state can be compromised at unknown points in time via side channels or penetration attacks. The usual remedy (used by all the major operating systems, including Windows, Linux, FreeBSD, MacOS, iOS, etc.) is to periodically replenish the internal state through an auxiliary input with additional randomness harvested from the environment. However, recovering from such attacks in a provably correct and computationally optimal way had remained an unsolved challenge so far.
+
+In this paper we formalize the problem of designing an efficient recovery mechanism from state compromise, by considering it as an online optimization problem. If we knew the timing of the last compromise and the amount of entropy gathered since then, we could stop producing any outputs until the state becomes truly random again. However, our challenge is to recover within a time proportional to this optimal solution even in the hardest (and most realistic) case in which (a) we know nothing about the timing of the last state compromise, and the amount of new entropy injected since then into the state, and (b) any premature production of outputs leads to the total loss of all the added entropy \{$\backslash$em used by the RNG\}, since the attacker can use brute force to enumerate all the possible low-entropy states. In other words, the challenge is to develop recovery mechanisms which are guaranteed to save the day as quickly as possible after a compromise we are not even aware of. The dilemma that we face is that any entropy used prematurely will be lost, and any entropy which is kept unused will delay the recovery.
+
+After developing our formal definitional framework for RNGs with inputs, we show how to construct a nearly optimal RNG which is secure in our model. Our technique is inspired by the design of the Fortuna RNG (which is a heuristic RNG construction that is currently used by Windows and comes without any formal analysis), but we non-trivially adapt it to our much stronger adversarial setting. Along the way, our formal treatment of Fortuna enables us to improve its entropy efficiency by almost a factor of two, and to show that our improved construction is essentially tight, by proving a rigorous lower bound on the possible efficiency of any recovery mechanism in our very general model of the problem.},
+  urldate = {2018-05-30},
+  url = {https://eprint.iacr.org/2014/167},
   booktitle = {{{CRYPTO}}},
   author = {Dodis, Yevgeniy and Shamir, Adi and {Stephens-Davidowitz}, Noah and Wichs, Daniel},
   year = {2014}
@@ -170,14 +213,18 @@
 
 @unpublished{SCCyclicSieving07,
   title = {The {{Cyclic Sieving Phenomenon}} on the {{Alternating Sign Matrices}}},
-  note = {\url{http://noahsd.com/papers/ASMCSP.pdf}},
+  abstract = {We first present a previously unpublished result of Stanton [11] that the group of order four generated by rotation by 90$\smwhtcircle$ acting on alternating sign matrices exhibits the CSP with the obvious q-analogue of |ASM(n)|.},
+  url = {http://noahsd.com/papers/ASMCSP.pdf},
   author = {{Stephens-Davidowitz}, Noah and Cloninger, Alex},
   year = {2007}
 }
 
 @unpublished{HCSLinkPatterns07,
   title = {On Link Patterns {{AND Alternating Sign Matrices}}},
-  note = {\url{http://noahsd.com/papers/ASMLinks.pdf}},
+  abstract = {We devise an algorithm to generate an alternating sign matrix(ASM) with the same blue and green link pattern on the circle. We also find a characterization of link patterns that are achieved by a unique ASM.},
+  url = {http://noahsd.com/papers/ASMLinks.pdf},
   author = {Hong, Fraser Chiu Kim and Cloninger, Alex and {Stephens-Davidowitz}, Noah},
   year = {2007}
 }
+
+

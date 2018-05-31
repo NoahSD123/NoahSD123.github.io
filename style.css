@@ -5,3 +5,5 @@ body {
 .spacer {
     height: 3rem;
 }
+
+.bibbase_paper_title a{ pointer-events: none; }

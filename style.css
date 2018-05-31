@@ -7,3 +7,8 @@ body {
 }
 
 .bibbase_paper_title a{ pointer-events: none; }
+
+a.bibbase.author.link {
+    pointer-events: none;
+    color: blue;
+}
